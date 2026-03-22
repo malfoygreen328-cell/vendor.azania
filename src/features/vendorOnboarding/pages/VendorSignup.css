@@ -1,0 +1,150 @@
+/* ===== Global Page Styling ===== */
+
+body{
+  background: linear-gradient(135deg,#002e1a,#004225);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+
+/* ===== Headings ===== */
+
+h2{
+  color:#ffffff;
+  font-weight:700;
+  letter-spacing:0.5px;
+}
+
+h3{
+  color:#D4AF37; /* Gold */
+  font-weight:600;
+}
+
+label{
+  color:#ffffff;
+  font-size:14px;
+}
+
+
+/* ===== Form Card ===== */
+
+.form-card{
+  background:white;
+  border-radius:12px;
+  padding:35px;
+  box-shadow:0 10px 35px rgba(0,0,0,0.25);
+}
+
+
+/* ===== Input Fields ===== */
+
+.input{
+  width:100%;
+  padding:12px 14px;
+  border-radius:8px;
+  border:1px solid #d6d6d6;
+  font-size:14px;
+  transition:all 0.25s ease;
+}
+
+.input:focus{
+  outline:none;
+  border-color:#004225;
+  box-shadow:0 0 0 2px rgba(212,175,55,0.25);
+}
+
+
+/* ===== File Inputs ===== */
+
+.file-input{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  background:#fafafa;
+  transition:0.2s;
+}
+
+.file-input:hover{
+  border-color:#004225;
+}
+
+
+/* ===== Primary Button ===== */
+
+.btn-primary{
+  background:linear-gradient(135deg,#004225,#006b3c);
+  color:white;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+  transition:all 0.25s ease;
+}
+
+.btn-primary:hover{
+  background:linear-gradient(135deg,#006b3c,#00894a);
+  transform:translateY(-1px);
+  box-shadow:0 6px 12px rgba(0,0,0,0.2);
+}
+
+
+/* ===== Secondary Button ===== */
+
+.btn-secondary{
+  background:#f1f1f1;
+  color:#333;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.btn-secondary:hover{
+  background:#e2e2e2;
+}
+
+
+/* ===== Error Messages ===== */
+
+.text-red-500{
+  color:#ff6b6b;
+  font-size:12px;
+  margin-top:3px;
+}
+
+
+/* ===== Success Message ===== */
+
+.text-green-600{
+  color:#22c55e;
+  font-weight:500;
+}
+
+
+/* ===== Friendly Reminder Banner ===== */
+
+.reminder-box{
+  background:linear-gradient(135deg,#004225,#006b3c);
+  border:1px solid #D4AF37;
+  color:#ffffff; /* White text */
+  padding:14px;
+  border-radius:10px;
+  font-size:13px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.reminder-box strong{
+  color:#D4AF37; /* Gold highlight */
+}
+
+
+/* ===== Smooth Animations ===== */
+
+button, input, select{
+  transition:all 0.2s ease;
+}
